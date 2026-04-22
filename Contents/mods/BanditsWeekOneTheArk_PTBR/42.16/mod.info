@@ -1,0 +1,9 @@
+name=The Ark [PT-BR]
+id=TheArk_PTBR
+author=4Lnx
+description=Tradução para Português do Brasil do mod The Ark, sequência direta de Bandits: Week One.
+versionMin=42.16.0
+poster=poster.png
+icon=modicon.png
+require=\TheArk
+category=Language/Translation

@@ -1,0 +1,82 @@
+{
+    "Sandbox_BWOA": "A Arca",
+
+    "Sandbox_BWOA.FalloutStarted": "Início da chuva radioativa",
+    "Sandbox_BWOA.FalloutStarted_tooltip": "Afeta a radiação inicial e as condições climáticas.",
+    "Sandbox_BWOA.FalloutStarted_option1": "1 semana antes do despertar",
+    "Sandbox_BWOA.FalloutStarted_option2": "2 semanas antes do despertar",
+    "Sandbox_BWOA.FalloutStarted_option3": "1 mês antes do despertar",
+    "Sandbox_BWOA.FalloutStarted_option4": "3 meses antes do despertar",
+    "Sandbox_BWOA.FalloutStarted_option5": "6 meses antes do despertar",
+    "Sandbox_BWOA.FalloutStarted_option6": "1 ano antes do despertar",
+
+    "Sandbox_BWOA.FalloutEnds": "Fim da chuva radioativa em",
+    "Sandbox_BWOA.FalloutEnds_tooltip": "Afeta a duração da radiação e do clima, assim como a duração da história.",
+    "Sandbox_BWOA.FalloutEnds_option1": "1 semana após o despertar (não recomendado)",
+    "Sandbox_BWOA.FalloutEnds_option2": "2 semanas após o despertar",
+    "Sandbox_BWOA.FalloutEnds_option3": "1 mês após o despertar (recomendado)",
+    "Sandbox_BWOA.FalloutEnds_option4": "3 meses após o despertar",
+    "Sandbox_BWOA.FalloutEnds_option5": "6 meses após o despertar",
+    "Sandbox_BWOA.FalloutEnds_option6": "1 ano após o despertar",
+
+    "Sandbox_BWOA.FalloutCurve": "Curva da chuva radioativa",
+    "Sandbox_BWOA.FalloutCurve_tooltip": "Controla a velocidade de aumento e de queda do período de chuva radioativa.",
+    "Sandbox_BWOA.FalloutCurve_option1": "Aumento muito rápido + queda muito lenta",
+    "Sandbox_BWOA.FalloutCurve_option2": "Aumento rápido + queda lenta",
+    "Sandbox_BWOA.FalloutCurve_option3": "Uniforme",
+    "Sandbox_BWOA.FalloutCurve_option4": "Aumento lento + queda rápida",
+    "Sandbox_BWOA.FalloutCurve_option5": "Aumento muito lento + queda muito rápida",
+
+    "Sandbox_BWOA.TemperatureDrop": "Queda de temperatura",
+    "Sandbox_BWOA.TemperatureDrop_tooltip": "Controla o quão frio é o inverno nuclear.",
+    "Sandbox_BWOA.TemperatureDrop_option1": "Mínima",
+    "Sandbox_BWOA.TemperatureDrop_option2": "Baixa",
+    "Sandbox_BWOA.TemperatureDrop_option3": "Moderada",
+    "Sandbox_BWOA.TemperatureDrop_option4": "Alta",
+    "Sandbox_BWOA.TemperatureDrop_option5": "Extrema",
+
+    "Sandbox_BWOA.ArkGeneratorFuelConsumption": "Consumo de combustível dos geradores da Arca",
+    "Sandbox_BWOA.ArkGeneratorFuelConsumption_tooltip": "Controla quanto combustível os geradores da Arca consomem.",
+    "Sandbox_BWOA.ArkGeneratorFuelConsumption_option1": "Mínimo",
+    "Sandbox_BWOA.ArkGeneratorFuelConsumption_option2": "Baixo",
+    "Sandbox_BWOA.ArkGeneratorFuelConsumption_option3": "Moderado",
+    "Sandbox_BWOA.ArkGeneratorFuelConsumption_option4": "Alto",
+    "Sandbox_BWOA.ArkGeneratorFuelConsumption_option5": "Muito alto",
+    
+    "Sandbox_BWOA.ShelterOccurance": "Ocorrência de abrigos",
+    "Sandbox_BWOA.ShelterOccurance_tooltip": "Afeta com que frequência porões aleatórios gerados proceduralmente aparecem. Eles são independentes de porões normais.",
+    "Sandbox_BWOA.ShelterOccurance_option1": "Extremamente raro",
+    "Sandbox_BWOA.ShelterOccurance_option2": "Raro",
+    "Sandbox_BWOA.ShelterOccurance_option3": "Às vezes",
+    "Sandbox_BWOA.ShelterOccurance_option4": "Frequente",
+    "Sandbox_BWOA.ShelterOccurance_option5": "Muito frequente",
+
+    "Sandbox_BWOA.HostileGroupSize": "Presença hostil",
+    "Sandbox_BWOA.HostileGroupSize_tooltip": "Determina o tamanho típico dos grupos de sobreviventes hostis.",
+    "Sandbox_BWOA.HostileGroupSize_option1": "Vai dar tudo certo",
+    "Sandbox_BWOA.HostileGroupSize_option2": "Provavelmente dá",
+    "Sandbox_BWOA.HostileGroupSize_option3": "Normal",
+    "Sandbox_BWOA.HostileGroupSize_option4": "Má ideia",
+    "Sandbox_BWOA.HostileGroupSize_option5": "Péssima ideia",
+    "Sandbox_BWOA.HostileGroupSize_option6": "Você pediu por isso",
+
+    "Sandbox_BWOA.ResidueScrap": "Sucata residual",
+    "Sandbox_BWOA.ResidueScrap_tooltip": "Controla quanto material de sucata existe no mundo.",
+    "Sandbox_BWOA.ResidueScrap_option1": "Nenhuma",
+    "Sandbox_BWOA.ResidueScrap_option2": "Muito pouca",
+    "Sandbox_BWOA.ResidueScrap_option3": "Pouca",
+    "Sandbox_BWOA.ResidueScrap_option4": "Normal",
+    "Sandbox_BWOA.ResidueScrap_option5": "Bastante",
+
+    "Sandbox_BWOA.SkeletonReanimation": "Esqueletos vivos",
+    "Sandbox_BWOA.SkeletonReanimation_tooltip": "(PODE CAUSAR TRAVAMENTO DO JOGO!) Esqueletos têm alguma chance de reanimação.",
+
+    "Sandbox_BWOA.AngelProximity": "Orientação extra do anjo",
+    "Sandbox_BWOA.AngelProximity_tooltip": "Ajuda extra para descobrir pontos de interesse únicos.",
+
+    "Sandbox_BWOA.MemoryRegain": "Recuperação de memória",
+    "Sandbox_BWOA.MemoryRegain_tooltip": "O jogador pode recuperar algumas habilidades com o tempo ou ao interagir com certos objetos.",
+
+    "Sandbox_BWOA.RetroRadiation": "Retro-radiação no inventário",
+    "Sandbox_BWOA.RetroRadiation_tooltip": "O inventário do jogador pode ser irradiado por itens no chão."
+}

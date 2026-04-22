@@ -1,0 +1,11 @@
+{
+	"Tooltip_item_Radio": "Equipe para operar o rádio.",
+	"Tooltip_PillsPotassiumIodine": "Reduz os efeitos negativos da radiação.",
+	"Tooltip_PillsPentoxifylline": "Combate o envenenamento por CO2 alto.",
+	"Tooltip_PillsPrussianBlue": "Ainda não implementado.",
+	"Tooltip_PillsNikethamide": "Ajuda na hipotermia.",
+	"Tooltip_NBCTablets": "Comprimidos de descontaminação nuclear-biológica-química.",
+	"Tooltip_GeigerCounter": "Mede os níveis de radiação e emite sinais quando equipado/anexado.",
+	"Tooltip_LabSyringe": "Seringa com substância desconhecida.",
+	"Tooltip_LabSyringeCure": "Seringa com a cura experimental."
+}
