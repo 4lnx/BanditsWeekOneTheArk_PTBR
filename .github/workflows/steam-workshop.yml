@@ -1,0 +1,46 @@
+name: Steam Workshop Deployment
+
+on:
+  push:
+    branches:
+      - main
+
+  pull_request:
+    branches:
+      - main
+    types:
+      - closed
+
+jobs:
+  build-and-deploy:
+    if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.pull_request.merged == true)
+
+    runs-on: ubuntu-latest
+
+    container:
+      image: cm2network/steamcmd:root
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Update upload.vdf paths
+        run: |
+          CHANGE_NOTE="$(git log -1 --pretty=%s)"
+
+          sed -i "s|\"contentfolder\".*|\"contentfolder\"    \"$PWD/Contents\"|g" upload.vdf
+          sed -i "s|\"previewfile\".*|\"previewfile\"      \"$PWD/preview.png\"|g" upload.vdf
+          sed -i "s|\"changenote\".*|\"changenote\"       \"$CHANGE_NOTE\"|g" upload.vdf
+
+          echo "===== upload.vdf ====="
+          cat upload.vdf
+
+      - name: Deploy to Steam Workshop
+        env:
+          USER_NAME: ${{ secrets.STEAM_USERNAME }}
+          USER_PASSWD: ${{ secrets.STEAM_PASSWORD }}
+        run: |
+          steamcmd \
+            +login "$USER_NAME" "$USER_PASSWD" \
+            +workshop_build_item "$PWD/upload.vdf" \
+            +quit
