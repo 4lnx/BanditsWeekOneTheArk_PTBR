@@ -5,16 +5,8 @@ on:
     branches:
       - main
 
-  pull_request:
-    branches:
-      - main
-    types:
-      - closed
-
 jobs:
   build-and-deploy:
-    if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.pull_request.merged == true)
-
     runs-on: ubuntu-latest
 
     container:
@@ -26,7 +18,7 @@ jobs:
 
       - name: Update upload.vdf paths
         run: |
-          CHANGE_NOTE="$(git log -1 --pretty=%s)"
+          CHANGE_NOTE="${{ github.event.head_commit.message }}"
 
           sed -i "s|\"contentfolder\".*|\"contentfolder\"    \"$PWD/Contents\"|g" upload.vdf
           sed -i "s|\"previewfile\".*|\"previewfile\"      \"$PWD/preview.png\"|g" upload.vdf
