@@ -13,6 +13,7 @@
     "IGUI_SayPlayer_NoOneAround": "Não tem ninguém por perto para falar.",
     "IGUI_SayPlayer_Repeat": "Pode repetir isso?",
     "IGUI_SayPlayer_Suffocating": "Estou sufocando!",
+    "IGUI_SayPlayer_MapUpdated": "Mapa atualizado!",
 
     "IGUI_SayPlayer_Dream_1": "Que sonho!",
     "IGUI_SayPlayer_Dream_2": "Droga de sonhos...",
@@ -37,6 +38,7 @@
     "IGUI_Emote_Play": "Brincar",
     "IGUI_Emote_Tag": "Pegar",
     "IGUI_Emote_Dance": "Dançar",
+    "IGUI_Emote_Pray": "Rezar",
 
     "IGUI_Artifact_ColdPassage": "Passagem Fria e o Gerenciamento da Morte",
     "IGUI_Artifact_EarlyMortuaryPractice": "Sobre Determinantes Ambientais das Práticas Mortuárias Precedes",
@@ -50,6 +52,8 @@
     "IGUI_Artifact_NoahCentralComputer": "Computador Central NOAH",
     "IGUI_Artifact_EffectsRadiation": "Resumo dos Efeitos da Radiação Ionizante pelo ATSDR",
     "IGUI_Artifact_GX9": "Gerador Diesel MASS-GENFAC CO. Voltek GX-9",
+    "IGUI_Artifact_Eli": "Bilhete do Eli",
+    "IGUI_Artifact_Ventilation": "Manual do Sistema de Ventilação",
     "IGUI_Artifact_MedicalReport": "Relatório Médico",
     "IGUI_Artifact_IodineLeaflet": "Folheto de Iodeto de Potássio",
     "IGUI_Artifact_NikethamideLeaflet": "Folheto de Niketamida",
