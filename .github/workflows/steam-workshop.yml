@@ -32,7 +32,7 @@ jobs:
           USER_NAME: ${{ secrets.STEAM_USERNAME }}
           USER_PASSWD: ${{ secrets.STEAM_PASSWORD }}
         run: |
-          steamcmd \
+          /home/steam/steamcmd/steamcmd.sh \
             +login "$USER_NAME" "$USER_PASSWD" \
             +workshop_build_item "$PWD/upload.vdf" \
             +quit
