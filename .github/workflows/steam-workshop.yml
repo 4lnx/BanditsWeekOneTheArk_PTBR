@@ -9,9 +9,6 @@ jobs:
   build-and-deploy:
     runs-on: self-hosted
 
-    container:
-      image: cm2network/steamcmd:root
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -32,7 +29,7 @@ jobs:
           USER_NAME: ${{ secrets.STEAM_USERNAME }}
           USER_PASSWD: ${{ secrets.STEAM_PASSWORD }}
         run: |
-          /home/steam/steamcmd/steamcmd.sh \
+          steamcmd \
             +login "$USER_NAME" "$USER_PASSWD" \
             +workshop_build_item "$PWD/upload.vdf" \
             +quit
