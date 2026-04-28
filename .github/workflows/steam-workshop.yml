@@ -18,7 +18,7 @@ jobs:
 
       - name: Update upload.vdf paths
         run: |
-          CHANGE_NOTE="${{ github.event.head_commit.message }}"
+          CHANGE_NOTE="$(printf '%s\n' "${{ github.event.head_commit.message }}" | head -n 1 | tr '"' "'")"
 
           sed -i "s|\"contentfolder\".*|\"contentfolder\"    \"$PWD/Contents\"|g" upload.vdf
           sed -i "s|\"previewfile\".*|\"previewfile\"      \"$PWD/preview.png\"|g" upload.vdf
