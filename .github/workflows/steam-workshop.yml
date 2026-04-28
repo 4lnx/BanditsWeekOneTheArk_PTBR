@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     container:
-      image: cm2network/steamcmd:root
+      image: cm2network/steamcmd
 
     steps:
       - name: Checkout repository
