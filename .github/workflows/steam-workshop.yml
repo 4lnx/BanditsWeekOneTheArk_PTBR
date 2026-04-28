@@ -14,8 +14,10 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Update upload.vdf paths
+        env:
+          COMMIT_MESSAGE: ${{ github.event.head_commit.message }}
         run: |
-          CHANGE_NOTE="$(printf '%s\n' "${{ github.event.head_commit.message }}" | head -n 1 | tr '"' "'")"
+          CHANGE_NOTE=$(printf "%s" "$COMMIT_MESSAGE" | head -n 1)
 
           sed -i "s|\"contentfolder\".*|\"contentfolder\"    \"$PWD/Contents\"|g" upload.vdf
           sed -i "s|\"previewfile\".*|\"previewfile\"      \"$PWD/preview.png\"|g" upload.vdf
