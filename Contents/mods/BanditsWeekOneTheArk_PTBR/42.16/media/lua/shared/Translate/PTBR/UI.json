@@ -24,6 +24,12 @@
     "UI_BWOA_SpeakTo": "Falar com ",
     "UI_BWOA_Missions": "Missões",
 
+    "UI_trait_goodmemory": "Boa Memória",
+    "UI_trait_goodmemoryDesc": "Receba mais XP ao recuperar suas memórias.",
+
+    "UI_trait_badmemory": "Má Memória",
+    "UI_trait_badmemoryDesc": "Receba menos XP ao recuperar suas memórias.",
+
     "UI_quick_tip1 ": "Emma não pode morrer.",
     "UI_quick_tip2 ": "Verifique o Painel de Missões sempre que atualizar.",
     "UI_quick_tip3 ": "Falar com Emma pode ser necessário para progredir a história.",
