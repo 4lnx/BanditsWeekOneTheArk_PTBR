@@ -14,6 +14,7 @@
     "IGUI_SayPlayer_Repeat": "Pode repetir isso?",
     "IGUI_SayPlayer_Suffocating": "Estou sufocando!",
     "IGUI_SayPlayer_MapUpdated": "Mapa atualizado!",
+    "IGUI_SayPlayer_AmIAlive": "Estou vivo?",
 
     "IGUI_SayPlayer_Dream_1": "Que sonho!",
     "IGUI_SayPlayer_Dream_2": "Droga de sonhos...",
@@ -231,6 +232,8 @@
     "IGUI_Missions_13_Description": "Trazer mais fitas VHS para a Arca ajudará você e Emma a relaxar juntos.",
     "IGUI_Missions_14_Name": "Obter espécime humano",
     "IGUI_Missions_14_Description": "Traga um cadáver humano para o laboratório e coloque na mesa de autópsia.",
+    "IGUI_Missions_15_Name": "Familiarize-se com a Arca",
+    "IGUI_Missions_15_Description": "Visite todos os cômodos da Arca e leia todos os documentos que encontrar nelas.",
     "IGUI_Missions_50_Name": "Encontrar Emma!",
     "IGUI_Missions_50_Description": "Emma deixou a Arca. Encontre-a!\nVocê se lembra dela mencionando algo sobre os armazéns perto de Muldraugh.",
     "IGUI_Missions_51_Name": "Trazer Emma para casa",
