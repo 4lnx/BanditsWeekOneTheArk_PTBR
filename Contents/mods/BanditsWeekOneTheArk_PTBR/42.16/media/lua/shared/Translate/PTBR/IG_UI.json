@@ -258,8 +258,10 @@
     "IGUI_Missions_114_Description": "Se você ficar infectado, Emma não terá escolha e te dará a droga para testar primeiro.\nDesta forma você protege Emma dos efeitos colaterais potenciais da cura experimental se ela foi mordida primeiro.",
     "IGUI_Missions_115_Name": "Injetar-se",
     "IGUI_Missions_115_Description": "Injete-se com o composto anti-viral experimental.",
-    "IGUI_Missions_120_Name": "Investigar Quartel-General da Finnegan.",
-    "IGUI_Missions_120_Description": "Conduza uma busca completa da suíte de executivos de nível C no Quartel-General da Finnegan nas Ruínas de Louisville.\n",
+    "IGUI_Missions_120_Name": "Vá até a sede da Finnegan.",
+    "IGUI_Missions_120_Description": "Viaje até a sede da Finnegan nas Ruínas de Louisville.\n",
+    "IGUI_Missions_121_Name": "Investigue a sede da Finnegan.",
+    "IGUI_Missions_121_Description": "Realize uma busca minuciosa na suíte de escritórios dos executivos de alto escalão da sede da Finnegan.\n",
 
     
     "IGUI_Dial_Emma_Robinson_0_Q": "Pode repetir isso?",
